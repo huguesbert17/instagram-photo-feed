@@ -1,6 +1,7 @@
 body{
     background: #000;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 .wrapper{
     width: 500px;
@@ -8,7 +9,6 @@ body{
     margin: 20px auto;
     color: #000;
     background: #fff;
-    padding: 20px;
     border-radius: 5px;
     flex-direction: column;
 }
@@ -16,16 +16,28 @@ body{
 .top-bar{
     display: flex;
     align-items: center;
-    gap: 0.5em;
+    padding: 10px 20px;
+}
+.text-wrapper{
+    padding: 5px 20px;
 }
 .title-text{
     display: flex;
     flex-direction: column;
+
 }
-.title{
+.desc{
     font-weight: 700;
+    font-size: 15px;
 }
 .count{
     color: #b2b2b2;
     margin-left: auto;
+}
+img{
+    width: 100%;
+}
+.img-wrapper{
+    overflow: hidden;
+    max-height: 470px;
 }
